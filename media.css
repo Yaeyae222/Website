@@ -1,0 +1,240 @@
+@media(min-width:1000px) {
+    .fa-bars,
+    .fa-magnifying-glass {
+        display: none;
+    }
+}
+
+@media(max-width:999px) {
+    .home-page-header {
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 5px;
+        text-align: center;
+        color: aliceblue;
+        width: 90%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .home-page-paragraph {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        color: aliceblue;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .animation-container {
+        margin-top: 50px;
+        height: 50vh;
+    }
+    .fa-bars,
+    .fa-magnifying-glass {
+        display: inline-block;
+        font-size: 20px;
+        margin: 0px 20px;
+    }
+    .right-section {
+        display: none;
+    }
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .company {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .purpose-heading {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .purpose-first-para {
+        width: 90%;
+        text-align: center;
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .purpose-second-para {
+        width: 60%;
+        text-align: center;
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+    .business-content p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        width: 85%;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+    .information-container table {
+        width: 90%;
+        margin-top: 60px;
+        border-top: 1px solid rgb(251, 243, 243);
+        border-bottom: 1px solid gray;
+        border-collapse: collapse;
+    }
+    .company-profile-container table {
+        width: 90%;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        border-collapse: collapse;
+        margin-bottom: 80px;
+    }
+}
+
+@media(max-width:770px) {
+    .business-images-container {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: space-between;
+    }
+    .home-page-header {
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        text-align: center;
+        color: aliceblue;
+        width: 90%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .home-page-paragraph {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        color: aliceblue;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .business-end-para {
+        margin-top: 30px;
+        line-height: 60px;
+        width: 90%;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 60px;
+        text-decoration: underline 10px solid aqua;
+    }
+}
+
+@media(max-width:700px) {
+    .animation-container {
+        margin-top: 50px;
+        height: 60vh;
+    }
+    .home-page-header {
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        text-align: center;
+        color: aliceblue;
+        width: 90%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .home-page-paragraph {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        color: aliceblue;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:350px) {
+    .animation-container {
+        margin-top: 50px;
+        height: 70vh;
+    }
+    .home-page-header {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        text-align: center;
+        color: aliceblue;
+        width: 90%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .home-page-paragraph {
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+        color: aliceblue;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .scroll-para {
+        font-size: 12px;
+    }
+    .down-arrow-container i {
+        font-size: 12px;
+    }
+    .inqury-para {
+        font-size: 12px;
+    }
+    .purpose-heading {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .purpose-first-para {
+        width: 90%;
+        text-align: center;
+        font-weight: 600;
+        line-height: 20px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .purpose-second-para {
+        width: 90%;
+        text-align: center;
+        font-weight: 600;
+        line-height: 20px;
+        font-size: 10px;
+        margin-bottom: 100px;
+    }
+    .business-content p {
+        text-align: center;
+        font-size: 10px;
+        font-weight: 700;
+        width: 100%;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+    .business-content p:nth-child(3) {
+        width: 100%;
+    }
+}
